@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "youpredict-webapp"
+  "defaultProject": "youpredict-webapp",
+  "cli": {
+    "analytics": "a528dc62-b2c2-4c51-be0b-b2a99f8bd553"
+  }
 }
