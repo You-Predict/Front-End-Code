@@ -12,4 +12,11 @@ export class AppsPredictionComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  rate:boolean=false;
+
+  rateFunction()
+  {
+    this.rate=true;
+  }
+
 }

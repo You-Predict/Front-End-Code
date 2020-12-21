@@ -154,6 +154,21 @@ body
     box-shadow: 0 3px 2px rgba(252, 249, 249, 0.384);
 }
 
+.list
+{
+    width: 800px;
+}
+
+.rate
+{
+    background-image: url("./rate.png");
+    height: 100px;
+    width: 250px;
+    position: relative; left: 175px; top: -30px;
+    background-size: cover;
+    border-radius: 4px;
+}
+
 ::placeholder 
 {
     text-align: center;
@@ -161,7 +176,7 @@ body
 
 h3
 {
-    color: white;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -170,10 +185,15 @@ h4
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     align-content: space-between;
+    position: relative; top: -20px;
 }
 
 p
 {
-    color: white;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative; top: -45px; left: 20px;
 }

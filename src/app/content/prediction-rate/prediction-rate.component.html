@@ -4,8 +4,7 @@
         <title>
             You Predict
         </title>
-        <link rel="stylesheet" href="apps-prediction.component.css">
-        <script src="./apps-prediction.component.ts"></script>
+        <link rel="stylesheet" href="prediction-rate.component.css">
     </head>
 
     <body>
@@ -16,20 +15,21 @@
             </div>
             <br><br>
             <div class="container2">
-                <h3>This service provided for those who build an application</h3>
-                <p>Just enter the app name and description and you will get the expected rating for your app</p>
-
                 <form>
                 <input type="text" placeholder="App name" name="search" class="oval" required>
                 <br><br>
                 <input type="text" placeholder="Enter the description of app" class="oval2" required>
 
                 <br><br>
-             <a routerLink="/showPredict">  <button class="button">Get rate</button> </a>  
+                <button class="button" ng-click="rateFunction()">Get rate</button>
                 </form>
+                <br><br><br>
 
-                
-                <br><br>
+                <div class="rate">
+                    <h3>Your prediction rate is</h3>
+                    <p>4</p>
+                </div>
+
                 <h4>Are you looking for app? with high rate?                
                 <a routerLink="/search"><button class="button2">Search</button></a>
                 </h4>

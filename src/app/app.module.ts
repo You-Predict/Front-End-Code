@@ -10,6 +10,7 @@ import { ContentComponent } from './content/content.component';
 import { AppsSearchComponent } from './content/apps-search/apps-search.component';
 import { AppsPredictionComponent } from './content/apps-prediction/apps-prediction.component';
 import { ShowAppsComponent } from './content/show-apps/show-apps.component';
+import { PredictionRateComponent } from './content/prediction-rate/prediction-rate.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ShowAppsComponent } from './content/show-apps/show-apps.component';
     ContentComponent,
     AppsSearchComponent,
     AppsPredictionComponent,
-    ShowAppsComponent
+    ShowAppsComponent,
+    PredictionRateComponent
   ],
   imports: [
     BrowserModule,
@@ -25,9 +27,11 @@ import { ShowAppsComponent } from './content/show-apps/show-apps.component';
     RouterModule.forRoot([
       { path: 'getRate', component: AppsPredictionComponent },
       { path: 'search', component: AppsSearchComponent},
-      { path: 'showApps', component: ShowAppsComponent} 
+      { path: 'showApps', component: ShowAppsComponent}, 
+      { path: 'showPredict', component: PredictionRateComponent}
     ])
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })

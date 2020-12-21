@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule, RouterLink } from '@angular/router';
 import { AppsPredictionComponent } from './content/apps-prediction/apps-prediction.component';
 import { AppsSearchComponent } from './content/apps-search/apps-search.component';
+import { PredictionRateComponent } from './content/prediction-rate/prediction-rate.component';
 import { ShowAppsComponent } from './content/show-apps/show-apps.component';
 
 const routes: Routes = [
@@ -9,6 +10,7 @@ const routes: Routes = [
   { component: AppsSearchComponent, path: 'search'},
   { component: AppsPredictionComponent, path: 'getRate'},
   { component: ShowAppsComponent, path: 'showApps'},
+  { component: PredictionRateComponent, path: 'showPredict'},
   { component: AppsSearchComponent, path: '**'},
 ];
 
