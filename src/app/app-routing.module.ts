@@ -8,8 +8,8 @@ const routes: Routes = [
   { component: AppsSearchComponent, path: ''},
   { component: AppsSearchComponent, path: 'search'},
   { component: AppsPredictionComponent, path: 'getRate'},
-  { component: AppsSearchComponent, path: '**'},
   { component: ShowAppsComponent, path: 'showApps'},
+  { component: AppsSearchComponent, path: '**'},
 ];
 
 @NgModule({
