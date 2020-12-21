@@ -14,5 +14,21 @@ export class AppsSearchComponent implements OnInit {
 
 }
 
+@Component({
+  selector: 'app-apps-search',
+  template: `
+    <nav class="logo">
+
+      <!-- logo -->
+      <div class="logo">
+        <a class="navbar-item">
+          <img src="assets/img/logo.png">
+        </a>
+      </div>
+    </nav>
+  `,
+  styles: []
+})
+
 
 export default class yousef{}
